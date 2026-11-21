@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "copy-forward-staleness-decay"
+version = "0.1.0"
+description = "Chart lore, quantified: a seeded simulator of copy-forward clinical documentation that measures the staleness half-life of resolved findings, the accuracy decay of copied vs freshly written spans, and benchmarks a provenance x contradiction staleness detector against a text-similarity-only baseline."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["copy_forward"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
