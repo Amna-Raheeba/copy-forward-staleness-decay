@@ -1,0 +1,252 @@
+{
+  "admission_id": 0,
+  "findings": [
+    {
+      "finding_id": "adm0-fever",
+      "finding_type": "fever",
+      "first_written_day": 4,
+      "onset_day": 4,
+      "resolution_day": 6,
+      "resolution_observed_day": 6
+    },
+    {
+      "finding_id": "adm0-anemia",
+      "finding_type": "anemia",
+      "first_written_day": 1,
+      "onset_day": 1,
+      "resolution_day": 5,
+      "resolution_observed_day": 7
+    },
+    {
+      "finding_id": "adm0-pneumonia",
+      "finding_type": "pneumonia",
+      "first_written_day": 5,
+      "onset_day": 5,
+      "resolution_day": 14,
+      "resolution_observed_day": null
+    }
+  ],
+  "n_days": 14,
+  "notes": [
+    {
+      "day": 1,
+      "mentions": [
+        {
+          "day": 1,
+          "finding_id": "adm0-anemia",
+          "finding_type": "anemia",
+          "first_day": 1,
+          "generation": 0,
+          "origin": "new",
+          "span_birth_day": 1,
+          "text": "Anemia, Hb trending down",
+          "variant": 0,
+          "written_today": true
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "mentions": [
+        {
+          "day": 2,
+          "finding_id": "adm0-anemia",
+          "finding_type": "anemia",
+          "first_day": 1,
+          "generation": 1,
+          "origin": "copy",
+          "span_birth_day": 1,
+          "text": "Anemia, Hb trending down",
+          "variant": 0,
+          "written_today": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "mentions": [
+        {
+          "day": 3,
+          "finding_id": "adm0-anemia",
+          "finding_type": "anemia",
+          "first_day": 1,
+          "generation": 2,
+          "origin": "copy",
+          "span_birth_day": 1,
+          "text": "Anemia, Hb trending down",
+          "variant": 0,
+          "written_today": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "mentions": [
+        {
+          "day": 4,
+          "finding_id": "adm0-anemia",
+          "finding_type": "anemia",
+          "first_day": 1,
+          "generation": 3,
+          "origin": "copy",
+          "span_birth_day": 1,
+          "text": "Anemia, Hb trending down",
+          "variant": 0,
+          "written_today": false
+        },
+        {
+          "day": 4,
+          "finding_id": "adm0-fever",
+          "finding_type": "fever",
+          "first_day": 4,
+          "generation": 0,
+          "origin": "new",
+          "span_birth_day": 4,
+          "text": "Fever to 38.9 C, ongoing",
+          "variant": 0,
+          "written_today": true
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "mentions": [
+        {
+          "day": 5,
+          "finding_id": "adm0-anemia",
+          "finding_type": "anemia",
+          "first_day": 1,
+          "generation": 4,
+          "origin": "copy",
+          "span_birth_day": 1,
+          "text": "Anemia, Hb trending down",
+          "variant": 0,
+          "written_today": false
+        },
+        {
+          "day": 5,
+          "finding_id": "adm0-fever",
+          "finding_type": "fever",
+          "first_day": 4,
+          "generation": 1,
+          "origin": "copy",
+          "span_birth_day": 4,
+          "text": "Fever to 38.9 C, ongoing",
+          "variant": 0,
+          "written_today": false
+        },
+        {
+          "day": 5,
+          "finding_id": "adm0-pneumonia",
+          "finding_type": "pneumonia",
+          "first_day": 5,
+          "generation": 0,
+          "origin": "new",
+          "span_birth_day": 5,
+          "text": "Hospital-acquired pneumonia, day of therapy noted",
+          "variant": 0,
+          "written_today": true
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "mentions": [
+        {
+          "day": 6,
+          "finding_id": "adm0-pneumonia",
+          "finding_type": "pneumonia",
+          "first_day": 5,
+          "generation": 1,
+          "origin": "copy",
+          "span_birth_day": 5,
+          "text": "Hospital-acquired pneumonia, day of therapy noted",
+          "variant": 0,
+          "written_today": false
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "mentions": [
+        {
+          "day": 7,
+          "finding_id": "adm0-pneumonia",
+          "finding_type": "pneumonia",
+          "first_day": 5,
+          "generation": 2,
+          "origin": "copy",
+          "span_birth_day": 5,
+          "text": "Hospital-acquired pneumonia, day of therapy noted",
+          "variant": 0,
+          "written_today": false
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "mentions": [
+        {
+          "day": 8,
+          "finding_id": "adm0-pneumonia",
+          "finding_type": "pneumonia",
+          "first_day": 5,
+          "generation": 3,
+          "origin": "copy",
+          "span_birth_day": 5,
+          "text": "Hospital-acquired pneumonia, day of therapy noted",
+          "variant": 0,
+          "written_today": false
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "mentions": []
+    },
+    {
+      "day": 10,
+      "mentions": [
+        {
+          "day": 10,
+          "finding_id": "adm0-pneumonia",
+          "finding_type": "pneumonia",
+          "first_day": 5,
+          "generation": 0,
+          "origin": "recheck",
+          "span_birth_day": 10,
+          "text": "Pneumonia, right lower lobe infiltrate",
+          "variant": 1,
+          "written_today": true
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "mentions": []
+    },
+    {
+      "day": 12,
+      "mentions": []
+    },
+    {
+      "day": 13,
+      "mentions": []
+    },
+    {
+      "day": 14,
+      "mentions": []
+    }
+  ],
+  "policy": "standard",
+  "resolution_assertions": [
+    [
+      6,
+      "adm0-fever"
+    ],
+    [
+      7,
+      "adm0-anemia"
+    ]
+  ]
+}
